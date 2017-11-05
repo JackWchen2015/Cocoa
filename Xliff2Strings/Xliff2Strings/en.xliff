@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ZeronerHealthPro/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="NSBluetoothPeripheralUsageDescription">
+        <source>use bluetooth to share data</source>
+      </trans-unit>
+      <trans-unit id="NSCameraUsageDescription">
+        <source>use carame to take pictures</source>
+      </trans-unit>
+      <trans-unit id="NSHealthShareUsageDescription">
+        <source>share data to health app</source>
+      </trans-unit>
+      <trans-unit id="NSHealthUpdateUsageDescription">
+        <source>update data to health app</source>
+      </trans-unit>
+      <trans-unit id="NSLocationAlwaysUsageDescription">
+        <source>we need use your location to Load weather data</source>
+      </trans-unit>
+      <trans-unit id="NSLocationWhenInUseUsageDescription">
+        <source>we need use your location to Load weather data</source>
+      </trans-unit>
+      <trans-unit id="NSMicrophoneUsageDescription">
+        <source>use microphone</source>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryAddUsageDescription">
+        <source>save photos to your photo library</source>
+      </trans-unit>
+      <trans-unit id="NSPhotoLibraryUsageDescription">
+        <source>save photos to your photo library</source>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ZeronerHealthPro/Localizable.strings" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="9.0" build-num="9A235"/>
+    </header>
+    <body>
+      <trans-unit id="%@\n版本号:%@">
+        <source>%1$@
+版本号:%2$@</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="%@minutes">
+        <source>%@minutes</source>
+        <note>%@分钟</note>
+      </trans-unit>
+      <trans-unit id="%i minutes remain">
+        <source>%i minutes remain</source>
+        <note>剩余约%i分钟</note>
+      </trans-unit>
+      <trans-unit id="%i seconds remain">
+        <source>%i seconds remain</source>
+        <note>剩余约%i秒</note>
+      </trans-unit>
+      <trans-unit id="%ld times">
+        <source>%ld times</source>
+        <note>%ld次</note>
+      </trans-unit>
+      <trans-unit id="(km)">
+        <source>(km)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(km/h)">
+        <source>(km/h)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="(min)">
+        <source>(min)</source>
+        <note>心率详情页 Activity HR 单位</note>
+      </trans-unit>
+      <trans-unit id="(min/km)">
+        <source>(min/km)</source>
+        <note>(min/km)</note>
+      </trans-unit>
+      <trans-unit id="(steps/min)">
+        <source>(steps/min)</source>
+        <note>(steps/min)</note>
+      </trans-unit>
+      <trans-unit id="0h17min">
+        <source>0h17min</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="2 h 13 min">
+        <source>2 h 13 min</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="2G/3G/4G network is running, app will consume some data stream">
+        <source>2G/3G/4G network is running, app will consume some data stream</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="3.4 km">
+        <source>3.4 km</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="5ft12in">
+        <source>5ft12in</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="5h30min">
+        <source>5h30min</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="6 to 18 characters">
+        <source>6 to 18 characters</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="7:00">
+        <source>7:00</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="12h">
+        <source>12h</source>
+        <note>12小时制</note><target></target>
+      </trans-unit>
+      <trans-unit id="24h">
+        <source>24h</source>
+        <note>24小时制</note>
+      </trans-unit>
+      <trans-unit id="32Apr1990">
+        <source>32Apr1990</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="101 Guide">
+        <source>101 Guide</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="10000 steps">
+        <source>10000 steps</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="About">
+        <source>About</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Access User Service Failed,Please try again later.">
+        <source>Access User Service Failed,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Activity">
+        <source>Activity</source>
+        <note>运动详情标题
+   主页的运动标题</note>
+      </trans-unit>
+      <trans-unit id="Activity Goal">
+        <source>Activity Goal</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Activity HR">
+        <source>Activity HR</source>
+        <note>心率历史页心率时长标题
+   心率详情页心率标题</note>
+      </trans-unit>
+      <trans-unit id="Activity time">
+        <source>Activity time</source>
+        <note>运动历史页运动时长标题</note>
+      </trans-unit>
+      <trans-unit id="Add Clock">
+        <source>Add Clock</source>
+        <note>添加闹钟</note>
+      </trans-unit>
+      <trans-unit id="Add Contacts">
+        <source>Add Contacts</source>
+        <note>添加联系人</note>
+      </trans-unit>
+      <trans-unit id="Add Sports">
+        <source>Add Sports</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Add sports">
+        <source>Add sports</source>
+        <note>添加运动</note>
+      </trans-unit>
+      <trans-unit id="Aerobic">
+        <source>Aerobic</source>
+        <note>心率区间
+   心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="Agree">
+        <source>Agree</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Alarm Clock">
+        <source>Alarm Clock</source>
+        <note>闹钟</note>
+      </trans-unit>
+      <trans-unit id="Anaerobic">
+        <source>Anaerobic</source>
+        <note>心率区间
+   心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="App Log">
+        <source>App Log</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="App Version">
+        <source>App Version</source>
+        <note>About页面app版本信息</note>
+      </trans-unit>
+      <trans-unit id="Apple Health">
+        <source>Apple Health</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Apple phone supports message push of all softwares.If you don't want to receive the message push, you can operate in Notification Center .">
+        <source>Apple phone supports message push of all softwares.If you don't want to receive the message push, you can operate in Notification Center .</source>
+        <note>苹果手机支持所有软件的消息推送，如果你想关闭推送，可以再通知中心操作</note>
+      </trans-unit>
+      <trans-unit id="April">
+        <source>April</source>
+        <note>四月</note>
+      </trans-unit>
+      <trans-unit id="Are you sure to delete this Clock">
+        <source>Are you sure to delete this Clock</source>
+        <note>您确定要删除这个闹钟吗</note>
+      </trans-unit>
+      <trans-unit id="Are you sure to delete this schedule">
+        <source>Are you sure to delete this schedule</source>
+        <note>您确定要删除这个日程吗</note>
+      </trans-unit>
+      <trans-unit id="Attention:\n 1、keep device close to your phone when upgrading \n2、please don’t exit upgrade page until it is complete.Upgrade failure may cause bracelet unavailable.">
+        <source>Attention:
+ 1、keep device close to your phone when upgrading 
+2、please don’t exit upgrade page until it is complete.Upgrade failure may cause bracelet unavailable.</source>
+        <note>升级过程中请注意:\n1、升级中请勿让手环远离手机 \n2、升级中请勿退出升级页面，避免升级失败导致手环不可用</note>
+      </trans-unit>
+      <trans-unit id="August">
+        <source>August</source>
+        <note>八月</note>
+      </trans-unit>
+      <trans-unit id="Auto sleep">
+        <source>Auto sleep</source>
+        <note>自动睡眠</note>
+      </trans-unit>
+      <trans-unit id="Auto-Heart rate">
+        <source>Auto-Heart rate</source>
+        <note>自动心率</note>
+      </trans-unit>
+      <trans-unit id="Avg">
+        <source>Avg</source>
+        <note>心率详情页平均标题
+   新增心率页 标题</note>
+      </trans-unit>
+      <trans-unit id="Avg\n">
+        <source>Avg
+</source>
+        <note>Avg\n</note>
+      </trans-unit>
+      <trans-unit id="Awake">
+        <source>Awake</source>
+        <note>睡眠详情页醒着标题</note>
+      </trans-unit>
+      <trans-unit id="Awake time">
+        <source>Awake time</source>
+        <note>睡眠历史页醒着时间标题
+   睡眠详情页醒着时间标题</note>
+      </trans-unit>
+      <trans-unit id="BLE Log">
+        <source>BLE Log</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Back light">
+        <source>Back light</source>
+        <note>背景灯时间</note>
+      </trans-unit>
+      <trans-unit id="Background color">
+        <source>Background color</source>
+        <note>黑白屏</note>
+      </trans-unit>
+      <trans-unit id="Band Setting">
+        <source>Band Setting</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Band set">
+        <source>Band set</source>
+        <note>手环设置</note>
+      </trans-unit>
+      <trans-unit id="Basic">
+        <source>Basic</source>
+        <note>简</note>
+      </trans-unit>
+      <trans-unit id="Birthday">
+        <source>Birthday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Black">
+        <source>Black</source>
+        <note>黑色</note>
+      </trans-unit>
+      <trans-unit id="Brithday">
+        <source>Brithday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Call">
+        <source>Call</source>
+        <note>来电</note>
+      </trans-unit>
+      <trans-unit id="Call the calendar">
+        <source>Call the calendar</source>
+        <note>运动详情页新手引导语</note>
+      </trans-unit>
+      <trans-unit id="Calories">
+        <source>Calories</source>
+        <note>运动分析页 Kcal标题
+   运动历史页卡路里标题
+   运动详情页卡路里标题</note>
+      </trans-unit>
+      <trans-unit id="Calories(kal)">
+        <source>Calories(kal)</source>
+        <note>主页的运动卡路里标题</note>
+      </trans-unit>
+      <trans-unit id="Camera is not support!">
+        <source>Camera is not support!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Can't Change Password, please check the Network">
+        <source>Can't Change Password, please check the Network</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Can't login, please check the Network">
+        <source>Can't login, please check the Network</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Can't open this website,try again later.">
+        <source>Can't open this website,try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cancel">
+        <source>Cancel</source>
+        <note>取消
+   NO</note>
+      </trans-unit>
+      <trans-unit id="Celsus">
+        <source>Celsus</source>
+        <note>摄氏度</note>
+      </trans-unit>
+      <trans-unit id="Change Password">
+        <source>Change Password</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Change of HR">
+        <source>Change of HR</source>
+        <note>心率历史页最高最低值标题</note>
+      </trans-unit>
+      <trans-unit id="Chinese">
+        <source>Chinese</source>
+        <note>中文</note>
+      </trans-unit>
+      <trans-unit id="Click here to change your target">
+        <source>Click here to change your target</source>
+        <note>我的页面新手引导语</note>
+      </trans-unit>
+      <trans-unit id="Click here to set your band">
+        <source>Click here to set your band</source>
+        <note>点击这里去设置你的手环</note>
+      </trans-unit>
+      <trans-unit id="Click here to view detailed data for different dates">
+        <source>Click here to view detailed data for different dates</source>
+        <note>运动详情页新手引导语</note>
+      </trans-unit>
+      <trans-unit id="Click here to view previous statistics">
+        <source>Click here to view previous statistics</source>
+        <note>运动详情页新手引导语</note>
+      </trans-unit>
+      <trans-unit id="Click the data module to view the details">
+        <source>Click the data module to view the details</source>
+        <note>点击数据模块查看数据详情</note>
+      </trans-unit>
+      <trans-unit id="Click to view the electrocardiogram(ECG) details">
+        <source>Click to view the electrocardiogram(ECG) details</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Clock must less than 6">
+        <source>Clock must less than 6</source>
+        <note>闹钟不要超过6个哦</note>
+      </trans-unit>
+      <trans-unit id="Close 'Allow Notifications'.If you want to allow notification of the application someday,you can repeat operation to open it.">
+        <source>Close 'Allow Notifications'.If you want to allow notification of the application someday,you can repeat operation to open it.</source>
+        <note>将允许推送的开关关闭即可。如果想要重新打开，则将开关打开即可。</note>
+      </trans-unit>
+      <trans-unit id="Completely download firmware,upgrade is starting">
+        <source>Completely download firmware,upgrade is starting</source>
+        <note>下载固件完成，即将开始升级</note>
+      </trans-unit>
+      <trans-unit id="Confirm whether to upgrade">
+        <source>Confirm whether to upgrade</source>
+        <note>确认是否升级</note>
+      </trans-unit>
+      <trans-unit id="Connecting...">
+        <source>Connecting...</source>
+        <note>连接中</note>
+      </trans-unit>
+      <trans-unit id="Connection Success">
+        <source>Connection Success</source>
+        <note>连接成功</note>
+      </trans-unit>
+      <trans-unit id="Connection failed,please retry. ">
+        <source>Connection failed,please retry. </source>
+        <note>Connection failed,please retry.</note>
+      </trans-unit>
+      <trans-unit id="Create your profile">
+        <source>Create your profile</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Cycles">
+        <source>Cycles</source>
+        <note>循环次数</note>
+      </trans-unit>
+      <trans-unit id="DB Error,Please try again later.">
+        <source>DB Error,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="DB Log">
+        <source>DB Log</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="DFU Helper">
+        <source>DFU Helper</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Data">
+        <source>Data</source>
+        <note>主页</note>
+      </trans-unit>
+      <trans-unit id="Data details">
+        <source>Data details</source>
+        <note>数据详情</note>
+      </trans-unit>
+      <trans-unit id="Date">
+        <source>Date</source>
+        <note>日期</note>
+      </trans-unit>
+      <trans-unit id="Date Formate">
+        <source>Date Formate</source>
+        <note>日期格式</note>
+      </trans-unit>
+      <trans-unit id="Date or Time invaild">
+        <source>Date or Time invaild</source>
+        <note>请选择有效的日期和时间</note>
+      </trans-unit>
+      <trans-unit id="Day/Month">
+        <source>Day/Month</source>
+        <note>Day/Month</note>
+      </trans-unit>
+      <trans-unit id="December">
+        <source>December</source>
+        <note>十二月</note>
+      </trans-unit>
+      <trans-unit id="Deep sleep">
+        <source>Deep sleep</source>
+        <note>睡眠历史页深睡时间标题
+   睡眠详情页深睡标题
+   睡眠详情页深睡时间标题</note>
+      </trans-unit>
+      <trans-unit id="Delete App Log and Network Log">
+        <source>Delete App Log and Network Log</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Delete Clock">
+        <source>Delete Clock</source>
+        <note>删除闹钟</note>
+      </trans-unit>
+      <trans-unit id="Delete Schedule">
+        <source>Delete Schedule</source>
+        <note>删除日程</note>
+      </trans-unit>
+      <trans-unit id="Details">
+        <source>Details</source>
+        <note>运动详情页详情标题</note>
+      </trans-unit>
+      <trans-unit id="Device">
+        <source>Device</source>
+        <note>我的</note>
+      </trans-unit>
+      <trans-unit id="Device Search">
+        <source>Device Search</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Device has been updated">
+        <source>Device has been updated</source>
+        <note>升级完成</note>
+      </trans-unit>
+      <trans-unit id="Distance">
+        <source>Distance</source>
+        <note>距离
+   运动历史页距离标题
+   运动详情页距离标题</note>
+      </trans-unit>
+      <trans-unit id="Do You Want to Unbind it?">
+        <source>Do You Want to Unbind it?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Do not remind during 12:00-14:00">
+        <source>Do not remind during 12:00-14:00</source>
+        <note>(12:00 - 14:00 不提醒)</note>
+      </trans-unit>
+      <trans-unit id="Do you wish to reboot the device?">
+        <source>Do you wish to reboot the device?</source>
+        <note>为了保证所有功能正常使用，请在“设置”-&gt;“蓝牙”中忽略设备，并在设备重启后重新绑定连接</note>
+      </trans-unit>
+      <trans-unit id="Don't have an account?">
+        <source>Don't have an account?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Drop down \n to synchronize data">
+        <source>Drop down 
+ to synchronize data</source>
+        <note>下拉刷新数据</note>
+      </trans-unit>
+      <trans-unit id="ECG">
+        <source>ECG</source>
+        <note>首页ECG标题
+   ECG详情页标题</note>
+      </trans-unit>
+      <trans-unit id="Easy Camera">
+        <source>Easy Camera</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Edit Schedule">
+        <source>Edit Schedule</source>
+        <note>编辑日程</note>
+      </trans-unit>
+      <trans-unit id="Email Address">
+        <source>Email Address</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Email Format Error!">
+        <source>Email Format Error!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="English">
+        <source>English</source>
+        <note>英文</note>
+      </trans-unit>
+      <trans-unit id="Everyday">
+        <source>Everyday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Exit">
+        <source>Exit</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Extreme">
+        <source>Extreme</source>
+        <note>心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="FAQ">
+        <source>FAQ</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="FRI">
+        <source>FRI</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Fahrenheit">
+        <source>Fahrenheit</source>
+        <note>华氏度</note>
+      </trans-unit>
+      <trans-unit id="Fall sleep">
+        <source>Fall sleep</source>
+        <note>睡眠历史页入睡时间标题</note>
+      </trans-unit>
+      <trans-unit id="Fastest\n">
+        <source>Fastest
+</source>
+        <note>Fastest\n</note>
+      </trans-unit>
+      <trans-unit id="Fat burning">
+        <source>Fat burning</source>
+        <note>心率区间</note>
+      </trans-unit>
+      <trans-unit id="Fat-burning">
+        <source>Fat-burning</source>
+        <note>心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="February">
+        <source>February</source>
+        <note>二月</note>
+      </trans-unit>
+      <trans-unit id="Feedback">
+        <source>Feedback</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Female">
+        <source>Female</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="File isn't exist">
+        <source>File isn't exist</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Firmware">
+        <source>Firmware</source>
+        <note>固件升级</note>
+      </trans-unit>
+      <trans-unit id="Firmwave upgrade">
+        <source>Firmwave upgrade</source>
+        <note>手环升级</note>
+      </trans-unit>
+      <trans-unit id="Follow iWOWNfit">
+        <source>Follow iWOWNfit</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Forgot password?">
+        <source>Forgot password?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Friday">
+        <source>Friday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Full name">
+        <source>Full name</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Gender">
+        <source>Gender</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Get more products">
+        <source>Get more products</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Have you connect the device?">
+        <source>Have you connect the device?</source>
+        <note>请确定手环是否连接</note>
+      </trans-unit>
+      <trans-unit id="Heart Rate">
+        <source>Heart Rate</source>
+        <note>运动分析页 标题
+   ECG详情页标题</note>
+      </trans-unit>
+      <trans-unit id="Heart rate">
+        <source>Heart rate</source>
+        <note>心率</note>
+      </trans-unit>
+      <trans-unit id="Heart rate guide">
+        <source>Heart rate guide</source>
+        <note>运动心率引导</note>
+      </trans-unit>
+      <trans-unit id="Heartrate">
+        <source>Heartrate</source>
+        <note>心率详情页标题</note>
+      </trans-unit>
+      <trans-unit id="Heartrate Alarm">
+        <source>Heartrate Alarm</source>
+        <note>运动心率提醒</note>
+      </trans-unit>
+      <trans-unit id="Height">
+        <source>Height</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Highest">
+        <source>Highest</source>
+        <note>心率详情页最高标题
+   新增心率页 标题</note>
+      </trans-unit>
+      <trans-unit id="Hightest">
+        <source>Hightest</source>
+        <note>心率最高值</note>
+      </trans-unit>
+      <trans-unit id="Historical statistics">
+        <source>Historical statistics</source>
+        <note>运动详情页新手引导语</note>
+      </trans-unit>
+      <trans-unit id="History">
+        <source>History</source>
+        <note>睡眠历史页标题
+   心率历史页标题
+   运动历史页标题</note>
+      </trans-unit>
+      <trans-unit id="How to send log file to us">
+        <source>How to send log file to us</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="I agree to User Agreement &amp; Privacy Policy">
+        <source>I agree to User Agreement &amp; Privacy Policy</source>
+        <note>用户隐私声明</note>
+      </trans-unit>
+      <trans-unit id="If turn off, band screen will not light up when you lift your  wrist.">
+        <source>If turn off, band screen will not light up when you lift your  wrist.</source>
+        <note>关闭后，手环不会在抬手时自动亮起</note>
+      </trans-unit>
+      <trans-unit id="If turn off, you can not monitor your sleep.">
+        <source>If turn off, you can not monitor your sleep.</source>
+        <note>关闭后你就不能自动监测睡眠了</note>
+      </trans-unit>
+      <trans-unit id="If turn off，heart rate is not monitored except in exercise">
+        <source>If turn off，heart rate is not monitored except in exercise</source>
+        <note>关闭后，就不会自动监测心率</note>
+      </trans-unit>
+      <trans-unit id="Imperial">
+        <source>Imperial</source>
+        <note>英制</note>
+      </trans-unit>
+      <trans-unit id="Indicator light">
+        <source>Indicator light</source>
+        <note>提醒灯</note>
+      </trans-unit>
+      <trans-unit id="Info">
+        <source>Info</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invalid Login Account Type,Please try again later.">
+        <source>Invalid Login Account Type,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invalid Platform,Please try again later.">
+        <source>Invalid Platform,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invalid Register Type,Please try again later.">
+        <source>Invalid Register Type,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Invalid User Account format,Please try again later.">
+        <source>Invalid User Account format,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Italian">
+        <source>Italian</source>
+        <note>意大利语</note>
+      </trans-unit>
+      <trans-unit id="January">
+        <source>January</source>
+        <note>一月</note>
+      </trans-unit>
+      <trans-unit id="Japanese">
+        <source>Japanese</source>
+        <note>日语</note>
+      </trans-unit>
+      <trans-unit id="July">
+        <source>July</source>
+        <note>七月</note>
+      </trans-unit>
+      <trans-unit id="June">
+        <source>June</source>
+        <note>六月</note>
+      </trans-unit>
+      <trans-unit id="Kcal">
+        <source>Kcal</source>
+        <note>详情页面详情卡路里单位
+   运动分析页 卡路里单位
+   运动详情页面卡路里单位</note>
+      </trans-unit>
+      <trans-unit id="Keep in touch with plenty of electricity">
+        <source>Keep in touch with plenty of electricity</source>
+        <note>PS:固件升级时请确保设备电量不低于50%</note>
+      </trans-unit>
+      <trans-unit id="Language switch">
+        <source>Language switch</source>
+        <note>语言切换</note>
+      </trans-unit>
+      <trans-unit id="Light sleep">
+        <source>Light sleep</source>
+        <note>睡眠历史页浅睡时间标题
+   睡眠详情页浅睡标题
+   睡眠详情页浅睡眠标题</note>
+      </trans-unit>
+      <trans-unit id="Login if you have agreed to">
+        <source>Login if you have agreed to</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Low battery!">
+        <source>Low battery!</source>
+        <note>电池电量低于50%，请连接充电器。</note>
+      </trans-unit>
+      <trans-unit id="Lowest">
+        <source>Lowest</source>
+        <note>心率详情页最低标题
+   新增心率页 标题</note>
+      </trans-unit>
+      <trans-unit id="Lowtest">
+        <source>Lowtest</source>
+        <note>心率最低值</note>
+      </trans-unit>
+      <trans-unit id="Lunch break">
+        <source>Lunch break</source>
+        <note>午休免打扰</note>
+      </trans-unit>
+      <trans-unit id="MON">
+        <source>MON</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Make sure that valid schedules less than 4">
+        <source>Make sure that valid schedules less than 4</source>
+        <note>亲,有效日程请不要超过%ld个哦</note>
+      </trans-unit>
+      <trans-unit id="Male">
+        <source>Male</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="March">
+        <source>March</source>
+        <note>三月</note>
+      </trans-unit>
+      <trans-unit id="Max\n">
+        <source>Max
+</source>
+        <note>Max\n</note>
+      </trans-unit>
+      <trans-unit id="May">
+        <source>May</source>
+        <note>五月</note>
+      </trans-unit>
+      <trans-unit id="Message">
+        <source>Message</source>
+        <note>提示</note>
+      </trans-unit>
+      <trans-unit id="Message Notification">
+        <source>Message Notification</source>
+        <note>短信和其他提醒
+   消息推送</note>
+      </trans-unit>
+      <trans-unit id="Messages">
+        <source>Messages</source>
+        <note>广告页标题</note>
+      </trans-unit>
+      <trans-unit id="Metric">
+        <source>Metric</source>
+        <note>公制</note>
+      </trans-unit>
+      <trans-unit id="Monday">
+        <source>Monday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Month/Day">
+        <source>Month/Day</source>
+        <note>Month/Day</note>
+      </trans-unit>
+      <trans-unit id="NEXT">
+        <source>NEXT</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="NO">
+        <source>NO</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="NO DATA">
+        <source>NO DATA</source>
+        <note>无数据</note>
+      </trans-unit>
+      <trans-unit id="NetWork error,Please Check your network">
+        <source>NetWork error,Please Check your network</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Network Log">
+        <source>Network Log</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New Data">
+        <source>New Data</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New password">
+        <source>New password</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="New password (6 to 18 characters)">
+        <source>New password (6 to 18 characters)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No Data">
+        <source>No Data</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No Data,Please try again later.">
+        <source>No Data,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No New Firmware Available,Please try again later.">
+        <source>No New Firmware Available,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No Results Or Results Too Many,Please try again later.">
+        <source>No Results Or Results Too Many,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="No available Vibration Mode">
+        <source>No available Vibration Mode</source>
+        <note>无设置模式支持</note>
+      </trans-unit>
+      <trans-unit id="No information yet">
+        <source>No information yet</source>
+        <note>无广告信息</note>
+      </trans-unit>
+      <trans-unit id="No more than 4 sports">
+        <source>No more than 4 sports</source>
+        <note>只能添加4种运动</note>
+      </trans-unit>
+      <trans-unit id="Not Set">
+        <source>Not Set</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Not remind in the zone">
+        <source>Not remind in the zone</source>
+        <note>运动心率区间</note>
+      </trans-unit>
+      <trans-unit id="November">
+        <source>November</source>
+        <note>十一月</note>
+      </trans-unit>
+      <trans-unit id="OK">
+        <source>OK</source>
+        <note>确定
+   OK
+   Yes, reboot</note>
+      </trans-unit>
+      <trans-unit id="October">
+        <source>October</source>
+        <note>十月</note>
+      </trans-unit>
+      <trans-unit id="Ok">
+        <source>Ok</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Old password">
+        <source>Old password</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Others">
+        <source>Others</source>
+        <note>运动详情Others</note>
+      </trans-unit>
+      <trans-unit id="PS:you can back if no responce for a long time">
+        <source>PS:you can back if no responce for a long time</source>
+        <note>PS:长时间处于等待状态请返回重试</note>
+      </trans-unit>
+      <trans-unit id="Pace">
+        <source>Pace</source>
+        <note>步频
+   运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="Pace ">
+        <source>Pace </source>
+        <note>Pace</note>
+      </trans-unit>
+      <trans-unit id="Palming gestures">
+        <source>Palming gestures</source>
+        <note>翻腕手势</note>
+      </trans-unit>
+      <trans-unit id="Parameter Not Provided,Please try again later.">
+        <source>Parameter Not Provided,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password">
+        <source>Password</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password (6 to 18 characters)">
+        <source>Password (6 to 18 characters)</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password Not Match,Please try again later.">
+        <source>Password Not Match,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Password reset successfully!">
+        <source>Password reset successfully!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Personal information">
+        <source>Personal information</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Phone Found">
+        <source>Phone Found</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Phone Number">
+        <source>Phone Number</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Phone Number Format Error!">
+        <source>Phone Number Format Error!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please confirm whether the bracelet restart or not when completely upgrade.">
+        <source>Please confirm whether the bracelet restart or not when completely upgrade.</source>
+        <note>请确认升级后手环是否正常启动</note>
+      </trans-unit>
+      <trans-unit id="Please connect device and then try again">
+        <source>Please connect device and then try again</source>
+        <note>手环未连接，请连接手环后重新设置</note>
+      </trans-unit>
+      <trans-unit id="Please connect device and try again">
+        <source>Please connect device and try again</source>
+        <note>请连接手环,然后重试</note>
+      </trans-unit>
+      <trans-unit id="Please don't quit or interrupt update during the process of firmware upgrading. Upgrade failure may cause the bracelet can not be used.">
+        <source>Please don't quit or interrupt update during the process of firmware upgrading. Upgrade failure may cause the bracelet can not be used.</source>
+        <note>升级过程中退出会导致升级失败，手环将会无法使用</note>
+      </trans-unit>
+      <trans-unit id="Please forget the device in Bluetooth">
+        <source>Please forget the device in Bluetooth</source>
+        <note>蓝牙设置里忽略设备</note>
+      </trans-unit>
+      <trans-unit id="Please input password!">
+        <source>Please input password!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please input your email!">
+        <source>Please input your email!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please note case sensitive">
+        <source>Please note case sensitive</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Please select at least one">
+        <source>Please select at least one</source>
+        <note>请至少选择一个</note>
+      </trans-unit>
+      <trans-unit id="Please try to reatart bluetooth or your band">
+        <source>Please try to reatart bluetooth or your band</source>
+        <note>请重启蓝牙或者手环
+   Please try to reatart bluetooth or your band</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy">
+        <source>Privacy Policy</source>
+        <note>About页面隐私声明</note>
+      </trans-unit>
+      <trans-unit id="Profile">
+        <source>Profile</source>
+        <note>我的
+   我的页面标题</note>
+      </trans-unit>
+      <trans-unit id="Profile photo">
+        <source>Profile photo</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="RECONNECT">
+        <source>RECONNECT</source>
+        <note>重新连接</note>
+      </trans-unit>
+      <trans-unit id="Rate">
+        <source>Rate</source>
+        <note>运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="Rate us on App Store">
+        <source>Rate us on App Store</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Reading device info">
+        <source>Reading device info</source>
+        <note>设备信息读取中，请稍后</note>
+      </trans-unit>
+      <trans-unit id="Regular">
+        <source>Regular</source>
+        <note>心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="Repeat">
+        <source>Repeat</source>
+        <note>重复
+   重复设置</note>
+      </trans-unit>
+      <trans-unit id="Repeat Setting">
+        <source>Repeat Setting</source>
+        <note>重复设置</note>
+      </trans-unit>
+      <trans-unit id="Rescue Firmware When Update Failed">
+        <source>Rescue Firmware When Update Failed</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Retrive password">
+        <source>Retrive password</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Return">
+        <source>Return</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Run">
+        <source>Run</source>
+        <note>运动详情分析页标题</note>
+      </trans-unit>
+      <trans-unit id="SAT">
+        <source>SAT</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="SEARCH AGAIN">
+        <source>SEARCH AGAIN</source>
+        <note>设备搜索页面的重新搜索按钮上面的文字</note>
+      </trans-unit>
+      <trans-unit id="SIGN IN">
+        <source>SIGN IN</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="SIGN UP">
+        <source>SIGN UP</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="SUCCESS">
+        <source>SUCCESS</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="SUN">
+        <source>SUN</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Saturday">
+        <source>Saturday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save">
+        <source>Save</source>
+        <note>保存
+   确定</note>
+      </trans-unit>
+      <trans-unit id="Save File Error,Please try again later.">
+        <source>Save File Error,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Save Schedule Failed">
+        <source>Save Schedule Failed</source>
+        <note>日程保存失败</note>
+      </trans-unit>
+      <trans-unit id="Save Schedule Success">
+        <source>Save Schedule Success</source>
+        <note>日程保存成功</note>
+      </trans-unit>
+      <trans-unit id="Schedule">
+        <source>Schedule</source>
+        <note>日程</note>
+      </trans-unit>
+      <trans-unit id="Schedule List">
+        <source>Schedule List</source>
+        <note>日程列表</note>
+      </trans-unit>
+      <trans-unit id="Schedule Reminder">
+        <source>Schedule Reminder</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Schedule already exist">
+        <source>Schedule already exist</source>
+        <note>同一时间的日程已存在</note>
+      </trans-unit>
+      <trans-unit id="Searching...">
+        <source>Searching...</source>
+        <note>搜索中</note>
+      </trans-unit>
+      <trans-unit id="Sedentary Reminder">
+        <source>Sedentary Reminder</source>
+        <note>久坐闹钟
+   久坐提醒</note>
+      </trans-unit>
+      <trans-unit id="Select Brithday">
+        <source>Select Brithday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Gender">
+        <source>Select Gender</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Height">
+        <source>Select Height</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select Weight">
+        <source>Select Weight</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Select the application which you do not want to  receive the message push.">
+        <source>Select the application which you do not want to  receive the message push.</source>
+        <note>选择想要关闭推送的应用</note>
+      </trans-unit>
+      <trans-unit id="Send Password Mail Failed,Please try again later.">
+        <source>Send Password Mail Failed,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="September">
+        <source>September</source>
+        <note>九月</note>
+      </trans-unit>
+      <trans-unit id="Set goal">
+        <source>Set goal</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Set your goal">
+        <source>Set your goal</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Setting">
+        <source>Setting</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sign Out?">
+        <source>Sign Out?</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sign out">
+        <source>Sign out</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sign up">
+        <source>Sign up</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Skip">
+        <source>Skip</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sleep">
+        <source>Sleep</source>
+        <note>睡眠
+   睡眠详情页标题</note>
+      </trans-unit>
+      <trans-unit id="Speed">
+        <source>Speed</source>
+        <note>速度
+   运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="Sport">
+        <source>Sport</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Start">
+        <source>Start</source>
+        <note>开始时间</note>
+      </trans-unit>
+      <trans-unit id="Step 1">
+        <source>Step 1</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Step 2">
+        <source>Step 2</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Steps">
+        <source>Steps</source>
+        <note>运动历史页步数标题
+   运动详情页步数标题
+   主页的运动步数名称</note>
+      </trans-unit>
+      <trans-unit id="Stride">
+        <source>Stride</source>
+        <note>运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="Stride frequency ">
+        <source>Stride frequency </source>
+        <note>Stride frequency</note>
+      </trans-unit>
+      <trans-unit id="Success">
+        <source>Success</source>
+        <note>升级成功</note>
+      </trans-unit>
+      <trans-unit id="Succuss">
+        <source>Succuss</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Sunday">
+        <source>Sunday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="System bluetooth should be repaired, please go to Setting -&gt; Bluetooth -&gt; %@ ⓘ -&gt; Forget This Device, Turn off and on system Bluetooth, then repair it in App.">
+        <source>System bluetooth should be repaired, please go to Setting -&gt; Bluetooth -&gt; %@ ⓘ -&gt; Forget This Device, Turn off and on system Bluetooth, then repair it in App.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="THU">
+        <source>THU</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="TUE">
+        <source>TUE</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Temperature switch">
+        <source>Temperature switch</source>
+        <note>温度单位设置</note>
+      </trans-unit>
+      <trans-unit id="The DFU helper is only valid for the wristband which went into DFU state because of upgrade error">
+        <source>The DFU helper is only valid for the wristband which went into DFU state because of upgrade error</source>
+        <note>手环升级助手针对升级错误导致进入DFU状态的手环，可以再次升级救活手环</note>
+      </trans-unit>
+      <trans-unit id="The difference between the maximum and minimum heart rate must be ≥10">
+        <source>The difference between the maximum and minimum heart rate must be ≥10</source>
+        <note>心率区间提醒设置必须大于等于10</note>
+      </trans-unit>
+      <trans-unit id="The following setting are valid only when you take exercise.When your heart rate is not in remind zone,the bracelet will vibrate.">
+        <source>The following setting are valid only when you take exercise.When your heart rate is not in remind zone,the bracelet will vibrate.</source>
+        <note>运动心率会在运动时监测，超出范围手环会震动</note>
+      </trans-unit>
+      <trans-unit id="The new password has been sent to the mailbox,please pay attention to check">
+        <source>The new password has been sent to the mailbox,please pay attention to check</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="The password length is incorrect, please set 6 to 16 bit password!">
+        <source>The password length is incorrect, please set 6 to 16 bit password!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="The password length is incorrect, please set 6 to 18 bit password!">
+        <source>The password length is incorrect, please set 6 to 18 bit password!</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This phone number can help you find back your password,please keep it in your mind.">
+        <source>This phone number can help you find back your password,please keep it in your mind.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="This upgrade is expected to %@,\n please keep in this page，don‘t exit.">
+        <source>This upgrade is expected to %@,
+ please keep in this page，don‘t exit.</source>
+        <note>本次升级预计%@,\n升级过程中请保持在升级页面，不要退出</note>
+      </trans-unit>
+      <trans-unit id="Thursday">
+        <source>Thursday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Time">
+        <source>Time</source>
+        <note>时间
+   运动分析页 时间标题</note>
+      </trans-unit>
+      <trans-unit id="Time format">
+        <source>Time format</source>
+        <note>时间制式</note>
+      </trans-unit>
+      <trans-unit id="Time period Setting">
+        <source>Time period Setting</source>
+        <note>时间段设置</note>
+      </trans-unit>
+      <trans-unit id="Tips">
+        <source>Tips</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Title">
+        <source>Title</source>
+        <note>标题</note>
+      </trans-unit>
+      <trans-unit id="Today">
+        <source>Today</source>
+        <note>运动历史页今天</note>
+      </trans-unit>
+      <trans-unit id="Total Steps">
+        <source>Total Steps</source>
+        <note>运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="Total sleep">
+        <source>Total sleep</source>
+        <note>睡眠历史页总睡眠时间标题
+   睡眠详情页总睡眠时间标题</note>
+      </trans-unit>
+      <trans-unit id="Tuesday">
+        <source>Tuesday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unbind">
+        <source>Unbind</source>
+        <note>解除绑定</note>
+      </trans-unit>
+      <trans-unit id="Unit of measurement">
+        <source>Unit of measurement</source>
+        <note>单位制式</note>
+      </trans-unit>
+      <trans-unit id="Unknowed error,retCode = %d">
+        <source>Unknowed error,retCode = %d</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Unknown error, Please try again later.">
+        <source>Unknown error, Please try again later.</source>
+        <note>未知错误，请稍后重试</note>
+      </trans-unit>
+      <trans-unit id="Update Helper">
+        <source>Update Helper</source>
+        <note>升级助手</note>
+      </trans-unit>
+      <trans-unit id="Upgrade Complete">
+        <source>Upgrade Complete</source>
+        <note>升级完成</note>
+      </trans-unit>
+      <trans-unit id="Upload BLE Log File Success">
+        <source>Upload BLE Log File Success</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Upload BLE Log to us">
+        <source>Upload BLE Log to us</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="User Agreement &amp; Privacy Policy">
+        <source>User Agreement &amp; Privacy Policy</source>
+        <note>用户隐私声明</note>
+      </trans-unit>
+      <trans-unit id="User Already Exist,Please try again later.">
+        <source>User Already Exist,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="User Not Exist,Please try again later.">
+        <source>User Not Exist,Please try again later.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Valid Schedules no more than %ld">
+        <source>Valid Schedules no more than %ld</source>
+        <note>每天可配置日程为%ld个哦
+   有效日程请不要超过%ld个哦</note>
+      </trans-unit>
+      <trans-unit id="Valid Schedules no more than %ld every day">
+        <source>Valid Schedules no more than %ld every day</source>
+        <note>每天可配置日程为%ld个哦</note>
+      </trans-unit>
+      <trans-unit id="Version number:%@">
+        <source>Version number:%@</source>
+        <note>版本号：%@</note>
+      </trans-unit>
+      <trans-unit id="Vibration Mode">
+        <source>Vibration Mode</source>
+        <note>震动模式</note>
+      </trans-unit>
+      <trans-unit id="Vibration remind">
+        <source>Vibration remind</source>
+        <note>震动提醒</note>
+      </trans-unit>
+      <trans-unit id="WED">
+        <source>WED</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Wake up">
+        <source>Wake up</source>
+        <note>睡眠历史页醒来时间标题</note>
+      </trans-unit>
+      <trans-unit id="Warm tip">
+        <source>Warm tip</source>
+        <note>温馨提示</note>
+      </trans-unit>
+      <trans-unit id="Warm up">
+        <source>Warm up</source>
+        <note>心率区间</note>
+      </trans-unit>
+      <trans-unit id="Warm-up">
+        <source>Warm-up</source>
+        <note>心率详情页心率等级</note>
+      </trans-unit>
+      <trans-unit id="Wednesday">
+        <source>Wednesday</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Weekdays">
+        <source>Weekdays</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Weekends">
+        <source>Weekends</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Weight">
+        <source>Weight</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Weight Goal">
+        <source>Weight Goal</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Welcome">
+        <source>Welcome</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="White">
+        <source>White</source>
+        <note>白色</note>
+      </trans-unit>
+      <trans-unit id="Wrist turning">
+        <source>Wrist turning</source>
+        <note>翻腕亮屏</note>
+      </trans-unit>
+      <trans-unit id="You can add 4 sports into your band">
+        <source>You can add 4 sports into your band</source>
+        <note>可选择4种运动储存到手环中</note>
+      </trans-unit>
+      <trans-unit id="You can measure the electrocardiogram(ECG) on your watch.">
+        <source>You can measure the electrocardiogram(ECG) on your watch.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your binding state will be reset if you sign out, and you will need to be reconnect at next sign-in. Are you sure to sign out?">
+        <source>Your binding state will be reset if you sign out, and you will need to be reconnect at next sign-in. Are you sure to sign out?</source>
+        <note>退出登录会重置您的绑定状态，再次登录时需要重新搜索连接，您确定退出登录吗?</note>
+      </trans-unit>
+      <trans-unit id="Your bracelet does not support schedule">
+        <source>Your bracelet does not support schedule</source>
+        <note>您的手环暂不支持日程功能</note>
+      </trans-unit>
+      <trans-unit id="Your bracelet doesn't support scheduling feature">
+        <source>Your bracelet doesn't support scheduling feature</source>
+        <note>您的手环暂不支持日程功能</note>
+      </trans-unit>
+      <trans-unit id="Your happy passer-by all knows">
+        <source>Your happy passer-by all knows</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="Your mailbox format is wrong">
+        <source>Your mailbox format is wrong</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="bpm">
+        <source>bpm</source>
+        <note>心率单位
+   新增心率页单位
+   ECG详情页单位</note>
+      </trans-unit>
+      <trans-unit id="click to back">
+        <source>click to back</source>
+        <note>点击返回</note>
+      </trans-unit>
+      <trans-unit id="click to connect">
+        <source>click to connect</source>
+        <note>点击连接</note>
+      </trans-unit>
+      <trans-unit id="cm">
+        <source>cm</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="connected">
+        <source>connected</source>
+        <note>已连接</note>
+      </trans-unit>
+      <trans-unit id="current">
+        <source>current</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="days">
+        <source>days</source>
+        <note>天</note>
+      </trans-unit>
+      <trans-unit id="device does not connect">
+        <source>device does not connect</source>
+        <note>设备未连接，请连接设备</note>
+      </trans-unit>
+      <trans-unit id="disconnected">
+        <source>disconnected</source>
+        <note>绑定未连接</note>
+      </trans-unit>
+      <trans-unit id="download">
+        <source>download</source>
+        <note>下载</note>
+      </trans-unit>
+      <trans-unit id="failed to downoad firmware,retry">
+        <source>failed to downoad firmware,retry</source>
+        <note>下载固件失败，请重试！</note>
+      </trans-unit>
+      <trans-unit id="failed to upgrade,please retry">
+        <source>failed to upgrade,please retry</source>
+        <note>升级失败，请重试！</note>
+      </trans-unit>
+      <trans-unit id="file is not exist">
+        <source>file is not exist</source>
+        <note>所选文件不存在</note>
+      </trans-unit>
+      <trans-unit id="firmware downloading...please do not back">
+        <source>firmware downloading...please do not back</source>
+        <note>固件下载中，请勿返回...</note>
+      </trans-unit>
+      <trans-unit id="fit in">
+        <source>fit in</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="go away">
+        <source>go away</source>
+        <note>离开</note>
+      </trans-unit>
+      <trans-unit id="h">
+        <source>h</source>
+        <note>小时</note>
+      </trans-unit>
+      <trans-unit id="have no device to update">
+        <source>have no device to update</source>
+        <note>无升级设备</note>
+      </trans-unit>
+      <trans-unit id="iWOWNFit pro">
+        <source>iWOWNFit pro</source>
+        <note>主页显示的app名称的标题</note>
+      </trans-unit>
+      <trans-unit id="iWOWNFit pro supports to share your data to Apple Health App,\nOpen the Health App and click the Menu-&gt;Sources,\nthen select iWOWNFit pro from the list to allow or disallow ‘iWOWNFit pro’ to acess all health data.">
+        <source>iWOWNFit pro supports to share your data to Apple Health App,
+Open the Health App and click the Menu-&gt;Sources,
+then select iWOWNFit pro from the list to allow or disallow ‘iWOWNFit pro’ to acess all health data.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="iWOWNfit's Forum">
+        <source>iWOWNfit's Forum</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="iWownfit">
+        <source>iWownfit</source>
+        <note>主页显示的app名称的标题</note>
+      </trans-unit>
+      <trans-unit id="if you do not forget the device,it may affect the connection between bracelet with other phone.">
+        <source>if you do not forget the device,it may affect the connection between bracelet with other phone.</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="invaild time">
+        <source>invaild time</source>
+        <note>无效的时间设定</note>
+      </trans-unit>
+      <trans-unit id="keep update">
+        <source>keep update</source>
+        <note>继续升级</note>
+      </trans-unit>
+      <trans-unit id="kg">
+        <source>kg</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="km">
+        <source>km</source>
+        <note>详情页面详情距离单位
+   运动分析页 距离单位</note>
+      </trans-unit>
+      <trans-unit id="lastest update">
+        <source>lastest update</source>
+        <note>最新更新（心率）</note>
+      </trans-unit>
+      <trans-unit id="latest version，no need to upgrade">
+        <source>latest version，no need to upgrade</source>
+        <note>已经是最新版本
+   已是最新版本，无需升级</note>
+      </trans-unit>
+      <trans-unit id="lbs">
+        <source>lbs</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="loading">
+        <source>loading</source>
+        <note>同步中</note>
+      </trans-unit>
+      <trans-unit id="loading %ld%%">
+        <source>loading %ld%%</source>
+        <note>同步%ld%%</note>
+      </trans-unit>
+      <trans-unit id="loading 100%">
+        <source>loading 100%</source>
+        <note>同步100%</note>
+      </trans-unit>
+      <trans-unit id="lose hand of to begin">
+        <source>lose hand of to begin</source>
+        <note>松手开始同步</note>
+      </trans-unit>
+      <trans-unit id="mi">
+        <source>mi</source>
+        <note>详情页面详情距离单位</note>
+      </trans-unit>
+      <trans-unit id="min">
+        <source>min</source>
+        <note>分钟
+   心率单位
+   心率详情页心率时长
+   运动详情页面运动分钟</note>
+      </trans-unit>
+      <trans-unit id="min/km">
+        <source>min/km</source>
+        <note>运动分析页 标题</note>
+      </trans-unit>
+      <trans-unit id="modify user information succeed">
+        <source>modify user information succeed</source>
+        <note>个人信息修改上传成功</note>
+      </trans-unit>
+      <trans-unit id="network error">
+        <source>network error</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="no data">
+        <source>no data</source>
+        <note>无数据（心率）</note>
+      </trans-unit>
+      <trans-unit id="no firmware to upgrade,please back">
+        <source>no firmware to upgrade,please back</source>
+        <note>无可用升级工具，请返回</note>
+      </trans-unit>
+      <trans-unit id="no search">
+        <source>no search</source>
+        <note>没有搜索到设备</note>
+      </trans-unit>
+      <trans-unit id="preparing to upgrade...">
+        <source>preparing to upgrade...</source>
+        <note>升级准备中...</note>
+      </trans-unit>
+      <trans-unit id="pull down to reload">
+        <source>pull down to reload</source>
+        <note>下拉同步数据</note>
+      </trans-unit>
+      <trans-unit id="remain 0 minutes">
+        <source>remain 0 minutes</source>
+        <note>剩余约0分钟</note>
+      </trans-unit>
+      <trans-unit id="retrive password by email">
+        <source>retrive password by email</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="retrive password by phone">
+        <source>retrive password by phone</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="retry">
+        <source>retry</source>
+        <note>保存信息
+   重试</note>
+      </trans-unit>
+      <trans-unit id="return">
+        <source>return</source>
+        <note>点击返回
+   返回</note>
+      </trans-unit>
+      <trans-unit id="save">
+        <source>save</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="save information failed">
+        <source>save information failed</source>
+        <note>保存信息失败</note>
+      </trans-unit>
+      <trans-unit id="saving">
+        <source>saving</source>
+        <note>正在保存信息...</note>
+      </trans-unit>
+      <trans-unit id="start">
+        <source>start</source>
+        <note>开始升级</note>
+      </trans-unit>
+      <trans-unit id="start update">
+        <source>start update</source>
+        <note>开始升级</note>
+      </trans-unit>
+      <trans-unit id="steps">
+        <source>steps</source>
+        <note>详情页面详情步数</note>
+      </trans-unit>
+      <trans-unit id="success">
+        <source>success</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="successfully saved information">
+        <source>successfully saved information</source>
+        <note>保存信息成功</note>
+      </trans-unit>
+      <trans-unit id="suggestion">
+        <source>suggestion</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="the privacy policy of iWownfit">
+        <source>the privacy policy of iWownfit</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="time out,try again later">
+        <source>time out,try again later</source>
+        <note>连接超时，请重试</note>
+      </trans-unit>
+      <trans-unit id="unknown error">
+        <source>unknown error</source>
+        <note>未知错误，请联系开发者</note>
+      </trans-unit>
+      <trans-unit id="unkonwn error ,please back">
+        <source>unkonwn error ,please back</source>
+        <note>未知错误，请返回</note>
+      </trans-unit>
+      <trans-unit id="updating,please wait">
+        <source>updating,please wait</source>
+        <note>升级中，请耐心等待</note>
+      </trans-unit>
+      <trans-unit id="upload user icon failed,please try after a while">
+        <source>upload user icon failed,please try after a while</source>
+        <note>上传头像失败，请稍后重试</note>
+      </trans-unit>
+      <trans-unit id="upload user icon succeed">
+        <source>upload user icon succeed</source>
+        <note>上传头像成功</note>
+      </trans-unit>
+      <trans-unit id="waiting...">
+        <source>waiting...</source>
+        <note>等待...</note>
+      </trans-unit>
+      <trans-unit id="your bind don't support">
+        <source>your bind don't support</source>
+        <note>手环不支持</note>
+      </trans-unit>
+      <trans-unit id="your phone is here">
+        <source>your phone is here</source>
+        <note>你的手机在这里</note>
+      </trans-unit>
+      <trans-unit id="关于">
+        <source>关于</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="型号：%@\n电量：%li%%\n固件版本：V%@\n产品序列号：%@">
+        <source>型号：%1$@
+电量：%2$li%%
+固件版本：V%3$@
+产品序列号：%4$@</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="手环升级助手针对升级错误导致进入DFU状态的手环，可以再次升级救活手环">
+        <source>手环升级助手针对升级错误导致进入DFU状态的手环，可以再次升级救活手环</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="返回">
+        <source>返回</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+      <trans-unit id="隐私声明">
+        <source>隐私声明</source>
+        <note>No comment provided by engineer.</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

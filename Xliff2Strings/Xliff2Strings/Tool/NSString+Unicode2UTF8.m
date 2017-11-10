@@ -13,17 +13,17 @@
 {
     NSString* tepStr1 = [self stringByReplacingOccurrencesOfString:@"\\u"withString:@"\\U"];
     
-    NSString* tepStr2 = [self stringByReplacingOccurrencesOfString:@"\""withString:@"\\\""];
+    NSString* tepStr2 = [tepStr1 stringByReplacingOccurrencesOfString:@"\""withString:@"\\\""];
     
-    NSString* tepStr3 = [[@"\""  stringByAppendingString:tepStr2]stringByAppendingString:@"\""];
+    NSString* tepStr3 = [[@"\"" stringByAppendingString:tepStr2]stringByAppendingString:@"\""];
     
-    NSData* tepData = [tepStr3  dataUsingEncoding:NSUTF8StringEncoding];
+    NSData* tepData = [tepStr3 dataUsingEncoding:NSUTF8StringEncoding];
     
-    NSString* axiba = [NSPropertyListSerialization    propertyListWithData:tepData options:NSPropertyListMutableContainers
+    NSString* axiba = [NSPropertyListSerialization propertyListWithData:tepData options:NSPropertyListMutableContainers
                       
                                                                    format:NULL error:NULL];
     
-    return  [axiba   stringByReplacingOccurrencesOfString:@"\\r\\n"withString:@"\n"];
+    return [axiba  stringByReplacingOccurrencesOfString:@"\\r\\n"withString:@"\n"];
     
 }
 @end

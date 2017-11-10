@@ -64,8 +64,6 @@
 //获取节点内容
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string{
     if (startParse) {
-        
-        
         if ([self.currentElement isEqualToString:@"source"]){
             self.stringNode.source=string;
         }else if ([self.currentElement isEqualToString:@"note"]){

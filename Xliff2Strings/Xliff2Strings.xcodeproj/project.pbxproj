@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4332863B1FB939B10009503E /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332863A1FB939B10009503E /* MainWindowController.m */; };
 		436662E71F8CB35B007B61EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436662E61F8CB35B007B61EF /* AppDelegate.m */; };
 		436662EA1F8CB35B007B61EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436662E91F8CB35B007B61EF /* ViewController.m */; };
 		436662EC1F8CB35B007B61EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436662EB1F8CB35B007B61EF /* Assets.xcassets */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		433286391FB939B10009503E /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		4332863A1FB939B10009503E /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
 		436662E21F8CB35B007B61EF /* Xliff2Strings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xliff2Strings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436662E51F8CB35B007B61EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		436662E61F8CB35B007B61EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 				43CEF0F91F8CE33E0041ABDA /* ResultWindowController.h */,
 				43CEF0FA1F8CE33E0041ABDA /* ResultWindowController.m */,
 				43CEF0FB1F8CE33E0041ABDA /* ResultWindowController.xib */,
+				433286391FB939B10009503E /* MainWindowController.h */,
+				4332863A1FB939B10009503E /* MainWindowController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -334,6 +339,7 @@
 				436662E71F8CB35B007B61EF /* AppDelegate.m in Sources */,
 				43CEF1001F8CE5710041ABDA /* CWXliffParser.m in Sources */,
 				43DD91DB1FAC757A00C06CC0 /* NSString+Unicode2UTF8.m in Sources */,
+				4332863B1FB939B10009503E /* MainWindowController.m in Sources */,
 				436663181F8CBA97007B61EF /* StringElement.m in Sources */,
 				43CEF0F81F8CE21D0041ABDA /* CWFileDragView.m in Sources */,
 			);

@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainWindowController.h"
 @interface AppDelegate ()
-
+{
+    MainWindowController* rootWinCtl;
+}
 @end
 
 @implementation AppDelegate
@@ -23,5 +25,17 @@
     // Insert code here to tear down your application
 }
 
-
+- (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
+{
+    if (flag) {
+        return NO;
+    }
+    else
+    {
+        NSStoryboard* story=[NSStoryboard storyboardWithName:@"Main" bundle:nil];
+        rootWinCtl = [story instantiateInitialController];
+        [rootWinCtl.window makeKeyAndOrderFront:self];
+        return YES;
+    }
+}
 @end

@@ -38,4 +38,15 @@
         return YES;
     }
 }
+- (IBAction)openMainWindow:(id)sender {
+    if (rootWinCtl) {
+         [rootWinCtl.window makeKeyAndOrderFront:self];
+    }
+    else
+    {
+        NSStoryboard* story=[NSStoryboard storyboardWithName:@"Main" bundle:nil];
+        rootWinCtl = [story instantiateInitialController];
+        [rootWinCtl.window makeKeyAndOrderFront:self];
+    }
+}
 @end

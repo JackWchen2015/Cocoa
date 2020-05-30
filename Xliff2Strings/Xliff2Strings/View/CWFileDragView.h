@@ -8,6 +8,18 @@
 
 #import <Cocoa/Cocoa.h>
 
+
+
+typedef NS_ENUM(NSInteger,DragInStatue)
+{
+    DragInStatueNo,
+    DragInStatueIn,
+    DragInStatueEro,
+};
+
+
 @interface CWFileDragView : NSView
 
+
+@property(nonatomic,assign)DragInStatue isDragIn;
 @end

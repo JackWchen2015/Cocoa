@@ -17,6 +17,9 @@
 - (void)windowDidLoad {
     [super windowDidLoad];
     
+    [[self.window standardWindowButton:NSWindowZoomButton] setHidden:YES];
+    self.window.styleMask=NSWindowStyleMaskTitled|NSWindowStyleMaskClosable|!NSWindowStyleMaskResizable|NSWindowStyleMaskMiniaturizable;
+    
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 }
 

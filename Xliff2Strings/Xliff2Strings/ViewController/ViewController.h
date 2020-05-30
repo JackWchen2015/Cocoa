@@ -7,9 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "CWFileDragView.h"
 
 @interface ViewController : NSViewController
 
+@property (weak) IBOutlet NSTextField *DragFileTipTxt;
+
+@property (weak) IBOutlet CWFileDragView *FileDragView;
 
 @end
 

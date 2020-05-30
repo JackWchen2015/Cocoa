@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" customClass="MainWindowController" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -707,21 +707,25 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="501" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9N-rn-wk3" customClass="CWFileDragView">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="l9N-rn-wk3" customClass="CWFileDragView">
+                                <rect key="frame" x="0.0" y="0.0" width="501" height="300"/>
                                 <subviews>
-                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZuS-lQ-20n">
-                                        <rect key="frame" x="216" y="111" width="48" height="48"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="添加" id="El8-2y-9dp"/>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZuS-lQ-20n">
+                                        <rect key="frame" x="227" y="126" width="48" height="48"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="aQK-F2-Zym"/>
+                                            <constraint firstAttribute="height" constant="48" id="esu-Y9-UdD"/>
+                                        </constraints>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="addBtn" id="El8-2y-9dp"/>
                                     </imageView>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-xs-tVU">
-                                        <rect key="frame" x="184" y="198" width="127" height="17"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="zHk-xs-tVU">
+                                        <rect key="frame" x="189" y="194" width="123" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="5jD-Wa-9c4"/>
+                                        </constraints>
                                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="将xliff文件拖到此处" id="8o9-kM-qNm">
                                             <font key="font" metaFont="system"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -729,16 +733,34 @@
                                         </textFieldCell>
                                     </textField>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="zHk-xs-tVU" firstAttribute="leading" secondItem="l9N-rn-wk3" secondAttribute="leading" constant="191" id="4CY-aq-IkF"/>
+                                    <constraint firstItem="ZuS-lQ-20n" firstAttribute="top" secondItem="zHk-xs-tVU" secondAttribute="bottom" constant="20" id="PRO-4n-48F"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="zHk-xs-tVU" secondAttribute="trailing" constant="20" symbolic="YES" id="TAw-zk-3hc"/>
+                                    <constraint firstItem="ZuS-lQ-20n" firstAttribute="centerX" secondItem="l9N-rn-wk3" secondAttribute="centerX" id="pEI-BO-lgq"/>
+                                    <constraint firstItem="ZuS-lQ-20n" firstAttribute="centerY" secondItem="l9N-rn-wk3" secondAttribute="centerY" id="tXF-Zc-DaS"/>
+                                </constraints>
                             </customView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="l9N-rn-wk3" secondAttribute="trailing" id="1P8-Wp-GeW"/>
+                            <constraint firstAttribute="bottom" secondItem="l9N-rn-wk3" secondAttribute="bottom" id="gEw-H3-Zuh"/>
+                            <constraint firstItem="l9N-rn-wk3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="kaJ-be-pLN"/>
+                            <constraint firstItem="l9N-rn-wk3" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="p2v-mM-yu8"/>
+                            <constraint firstAttribute="bottom" secondItem="l9N-rn-wk3" secondAttribute="bottom" id="qU5-FZ-tfZ"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="DragFileTipTxt" destination="zHk-xs-tVU" id="4i0-bC-Dd2"/>
+                        <outlet property="FileDragView" destination="l9N-rn-wk3" id="8zK-Sr-K5K"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="76" y="823"/>
         </scene>
     </scenes>
     <resources>
-        <image name="添加" width="200" height="200"/>
+        <image name="addBtn" width="200" height="200"/>
     </resources>
 </document>

@@ -7,3 +7,7 @@ iOS app的国际化按照苹果提供的方案，是用NSlocalizedString系列�
 
 ### 使用方法
 将*.xliff文件拖入到窗口即可生成。
+
+{% asset_img  xliff01.png %}
+
+{% asset_img  xliff02.png %}

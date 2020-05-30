@@ -8,10 +8,12 @@
 
 #import "AppDelegate.h"
 #import "MainWindowController.h"
+
 @interface AppDelegate ()
 {
-    MainWindowController* rootWinCtl;
+    
 }
+@property(nonatomic,strong)MainWindowController* rootWinCtl;
 @end
 
 @implementation AppDelegate
@@ -27,26 +29,23 @@
 
 - (BOOL)applicationShouldHandleReopen:(NSApplication *)theApplication hasVisibleWindows:(BOOL)flag
 {
-    if (flag) {
-        return NO;
+    if (!flag) {
+        [self.rootWinCtl.window makeKeyAndOrderFront:self];
     }
-    else
-    {
-        NSStoryboard* story=[NSStoryboard storyboardWithName:@"Main" bundle:nil];
-        rootWinCtl = [story instantiateInitialController];
-        [rootWinCtl.window makeKeyAndOrderFront:self];
-        return YES;
-    }
+    return YES;
 }
+
+
 - (IBAction)openMainWindow:(id)sender {
-    if (rootWinCtl) {
-         [rootWinCtl.window makeKeyAndOrderFront:self];
-    }
-    else
-    {
+   [self.rootWinCtl.window makeKeyAndOrderFront:self];
+}
+
+-(MainWindowController *)rootWinCtl
+{
+    if (!_rootWinCtl) {
         NSStoryboard* story=[NSStoryboard storyboardWithName:@"Main" bundle:nil];
-        rootWinCtl = [story instantiateInitialController];
-        [rootWinCtl.window makeKeyAndOrderFront:self];
+        _rootWinCtl= [story instantiateInitialController];
     }
+    return _rootWinCtl;
 }
 @end
